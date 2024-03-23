@@ -7,7 +7,12 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root"></div>
+    <h1>Hello Top of Root</h1>
+    <div id="root">
+      <h1>Khan is here!</h1>
+    </div>
+    <h1>Hello Top of Bottom</h1>
+
     <!-- <script>
         const heading = document.createElement('h1');
         heading.innerHTML = "Hello World from Javascript!";
@@ -17,14 +22,6 @@
         
     </script> -->
 
-    <script
-      crossorigin
-      src="https://unpkg.com/react@18/umd/react.development.js"
-    ></script>
-    <script
-      crossorigin
-      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
-    ></script>
-    <script src="./script.js"></script>
+    <script type="module" src="./script.js"></script>
   </body>
 </html>
