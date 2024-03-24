@@ -1,2 +1,18 @@
 what is npx ?
 npx excute our app.
+
+# Parcel
+
+- Dev Build
+- Local Server
+- HMR = Hot Module Replacement
+- File Watching Algorithm - written in C++
+- Caching - Faster Builds
+- Image Optimization
+- Miification
+- Bundling
+- Compress
+
+HW 
+how to write image src in jsx?
+how to write anchor(<a>) href in jsx?
