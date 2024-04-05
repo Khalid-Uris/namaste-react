@@ -1,4 +1,31 @@
-#heading {
-  color: red;
+.header {
+  border: 1px solid #000;
+  justify-content: space-between;
+  display: flex;
+}
+
+.logo {
+  width: 100px;
+}
+
+.nav-items > ul {
+  font-size: 24px;
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-items > ul > li {
+  margin: 10px;
+  padding: 10px;
+}
+
+.res-card {
+  border: 1px solid #000;
+  width: 300px;
+  height: 300px;
+}
+
+.search {
+  padding: 10px;
 }
 /*# sourceMappingURL=index.3a01df49.css.map */

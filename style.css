@@ -1,3 +1,31 @@
-#heading {
+/* #heading {
   color: red;
+} */
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+}
+.logo {
+  width: 100px;
+}
+.nav-items > ul {
+  display: flex;
+  list-style-type: none;
+  font-size: 24px;
+}
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+.res-card {
+  width: 300px;
+  height: 300px;
+  border: 1px solid black;
+  /* margin: 10px;
+  padding: 10px; */
+  /* float: left; */
+}
+.search {
+  padding: 10px;
 }

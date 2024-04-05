@@ -18,6 +18,44 @@ const jsxHeading = (
 
 console.log(jsxHeading);
 
+const spanElement = <span>This is a span element. Inside Heading2.</span>;
+
+// React Element
+const heading2 = (
+  <h1 className="heading" tabIndex="5">
+    {spanElement}
+    Namaste React using JSX!
+  </h1>
+);
+
+// ! React Function Component
+// Both are same
+// const fn = () => true;
+
+// const fn2 = () => {
+//   return true;
+// };
+
+const Title = () => (
+  <h1 className="head" tabIndex="5">
+    Namaste React using JSX
+  </h1>
+);
+
+const HeadingComponent = () => {
+  return <h1 className="heading">Namaste React Functional Component</h1>;
+};
+
+// component composition
+const HeadingComponent2 = () => (
+  <div className="container">
+    {Title()}
+    <Title />
+    {heading2}
+    <h1 className="heading">Namaste React Functional Component</h1>
+  </div>
+);
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-root.render(heading);
+root.render(<HeadingComponent2 />);

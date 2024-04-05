@@ -16,3 +16,30 @@ npx excute our app.
 HW 
 how to write image src in jsx?
 how to write anchor(<a>) href in jsx?
+
+
+// React Component
+// two ways of create react Component
+// Class Based Component - OLD
+// Functional Component - NEW
+
+Q what is component?
+Ans A nomal javascript function that return some piece of jsx code which is called component.
+or A function is return react element it is become functional component.
+
+const Title = () => (
+  <h1 className="head" tabIndex="5">
+    Namaste React using JSX
+  </h1>
+);
+
+// component composition: when we call component in antoher component is called component composition
+const HeadingComponent2 = () => (
+  <div className="container">
+    {Title()}
+    <Title />
+    {heading2}
+    <h1 className="heading">Namaste React Functional Component</h1>
+  </div>
+);
+
