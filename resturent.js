@@ -47,10 +47,14 @@ const RestaurantCard = () => {
   return (
     <div className="res-card" style={styleCard}>
       <img
+        className="res-logo"
         alt="error"
         src="https://media.istockphoto.com/id/1345624336/photo/chicken-biriyani.jpg?s=612x612&w=0&k=20&c=adU_N0P-1SKMQLZu5yu7aPknfLLgbViI8XILqLP92A4="
       ></img>
       <h1>Maghana Foods</h1>
+      <h4>Biryani, North Indian, Asian</h4>
+      <h4>4.5 stars</h4>
+      <h4>38 minutes</h4>
     </div>
   );
 };
@@ -60,6 +64,11 @@ const Body = () => {
     <div className="body">
       <div className="res-container">
         <div className="search">Search</div>
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
+        <RestaurantCard />
         <RestaurantCard />
       </div>
     </div>
